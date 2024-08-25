@@ -1,10 +1,10 @@
 # Prometheus apcupsd exporter
 
-[![Docker Automated build](https://img.shields.io/docker/automated/iodeveloper/prom-apcupsd-exporter.svg)](https://hub.docker.com/repository/docker/iodeveloper/prom-apcupsd-exporter/)
+[![Docker Automated build](https://img.shields.io/docker/automated/firestarter2501/prom-apcupsd-exporter.svg)](https://hub.docker.com/repository/docker/firestarter2501/prom-apcupsd-exporter/)
 
-[![Docker Hub repository](http://dockeri.co/image/iodeveloper/prom-apcupsd-exporter)](https://registry.hub.docker.com/r/iodeveloper/prom-apcupsd-exporter)
+[![Docker Hub repository](http://dockeri.co/image/firestarter2501/prom-apcupsd-exporter)](https://registry.hub.docker.com/r/firestarter2501/prom-apcupsd-exporter)
 
-`iodeveloper/prom-apcupsd-exporter:latest`
+`firestarter2501/prom-apcupsd-exporter:latest`
 
 ## Use cases
 
@@ -18,7 +18,7 @@
 * Can be integrated with apccontrol signals such as `powerout`, `startselftest` and etc.
 
 * Built-in websocket server allow to connect and notify web clients for events/signals.
-Example: lightweight status widget on pure js/css (responsive alternative to grafana for realtime monitoring - see https://github.com/io-developer/vue-ups).
+Example: lightweight status widget on pure js/css (responsive alternative to grafana for realtime monitoring - see https://github.com/firestarter2501/vue-ups).
 
 * This exporter calculates events between previous and latest states. Changed fields and new events are broadcasting to connected clients via websocket.
 
@@ -53,7 +53,7 @@ services:
       - "0.0.0.0:3559:3551"
 
   exporter:
-    image: iodeveloper/prom-apcupsd-exporter:latest
+    image: firestarter2501/prom-apcupsd-exporter:latest
     restart: always
     ports:
       - "0.0.0.0:3560:8001"
