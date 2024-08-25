@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/metric"
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/model"
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/server"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/metric"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/model"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/server"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

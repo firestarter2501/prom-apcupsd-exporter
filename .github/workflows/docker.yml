@@ -16,6 +16,6 @@ jobs:
           fetch-depth: 1
 
       - run: "docker -v"
-      - run: "echo ${{ secrets.DOCKER_TOKEN }} | docker login -u iodeveloper --password-stdin"
+      - run: "echo ${{ secrets.DOCKER_TOKEN }} | docker login -u firestarter2501 --password-stdin"
       - run: "./build-docker.sh"
-      - run: "docker push iodeveloper/prom-apcupsd-exporter:latest"
+      - run: "docker push firestarter2501/prom-apcupsd-exporter:latest"

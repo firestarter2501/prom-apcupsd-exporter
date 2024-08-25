@@ -1,4 +1,4 @@
-module github.com/io-developer/prom-apcupsd-exporter
+module github.com/firestarter2501/prom-apcupsd-exporter
 
 go 1.16
 

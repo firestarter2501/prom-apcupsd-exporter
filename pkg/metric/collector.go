@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/apcupsd"
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/model"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/apcupsd"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/model"
 
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"

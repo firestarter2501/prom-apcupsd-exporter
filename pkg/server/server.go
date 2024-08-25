@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/metric"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/metric"
 
 	"github.com/go-kit/kit/log"
 

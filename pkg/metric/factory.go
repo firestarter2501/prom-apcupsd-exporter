@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/io-developer/prom-apcupsd-exporter/pkg/model"
+	"github.com/firestarter2501/prom-apcupsd-exporter/pkg/model"
 
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
